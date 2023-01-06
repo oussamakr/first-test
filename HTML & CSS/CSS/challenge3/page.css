@@ -1,0 +1,29 @@
+body {
+    text-align: center;
+    color: red;
+}
+
+.h1 {
+    position: relative;
+    float: left;
+}
+.h3{
+    float: right;
+}
+
+.para {
+    background-color: grey;
+    border-color: black;
+    border-style: outset;
+    border-radius: 10px;
+    border-width: 2.5px;
+    color: white;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+img {
+    max-width: 20%;
+    height: auto;
+    float: left;
+}

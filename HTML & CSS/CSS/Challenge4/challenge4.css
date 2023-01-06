@@ -1,0 +1,106 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+color: white;
+    color: black;
+    background-color: white;
+    background-image: url(Fond.jpg);
+    background-size: cover;
+     
+}
+      
+
+table {
+    /* width: 500px; */
+    width: 100%;
+   
+    color: white;
+    text-decoration: solid;
+
+}
+
+.WIDTHTAB {
+   
+    text-decoration-color: white;
+    padding-bottom: 5px;
+}
+
+td {
+    padding-bottom: 5px;
+}
+
+
+/* .gauche {
+   width: inherit;
+    background-color: #ED2939;
+    opacity: 0.7
+}
+
+.droit {
+ width: inherit;
+    background-color: #ED2939;
+    opacity: 0.7
+}
+
+.center {
+    width: max-content;
+
+     text-align: center; 
+} */
+
+
+/* 
+.gauche1 {
+    width: inherit;
+    background-color: #ED2939;
+    opacity: 0.7
+}
+
+.droit1 {
+    width: inherit;
+    float: right;
+    background-color: #ED2939;
+    text-align: right;
+    opacity: 0.7
+}
+
+.center1 {
+    width: max-content;
+    text-align: center;
+}
+
+.gauche2 {
+    width: inherit;
+    background-color: #ED2939;
+    opacity: 0.7
+}
+
+.droit2 {
+    width: inherit;
+    float: right;
+    background-color: #ED2939;
+    text-align: right;
+    opacity: 0.7
+}
+
+.center2 {
+    width: max-content;
+    text-align: center;
+}
+ */
+.divi{
+    width:inherit;
+    background-color: red;
+
+}
+.tot{
+    display: flex ;
+    width: 100%;
+ 
+}
+.center {
+    color: white;
+
+text-align: center;
+   
+}

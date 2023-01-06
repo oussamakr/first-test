@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="TESTCSS.CSS">
+</head>
+<body>
+  <h1>test avancer</h1>
+  <p>Short test </p>
+  <p>mon site <a href="www.google.com">google</a></p>
+    
+  <h1>Saisie d'un formulaire</h1>
+  <form method="post" action="traitement.php">
+    <label for="prenom">Saisie votre prenom</label>
+    <input type="text" id="prenom" autocomplete="on" autofocus placeholder="ex : Oussama" > <br><br>
+
+    <label for="age">Inserez vote age</label>
+    <input type="number" id="age" name="age" autofocus="autofocus" min="20" max="30" required><br>
+
+    <label for="description">Description de votre etat actuelle </label>
+    <textarea name="desc" id="description" placeholder=" ex : je suis célibataire d'irigine x mon adresse est etc.."></textarea>
+
+    <input type="submit" value="Envoyer"><br><br>
+
+    mineur ou majeur ? <br>
+
+    <input type="radio" id ="Mineur" name="age" value="Mineur">
+    <label for="Mineur">Mineur</label><br>
+    <input type="radio" id="Majeur" name="age" value="Majeur">
+    <label for="Majeur"> Majeur</label><br><br>
+
+    Quel(s) pratiquez vous ?<br><br>
+
+    <input type="checkbox" name="sport" id="spearfshing" value="spearfishing">
+    <label for="spearfshing">spearfshing</label><br>
+    
+    <input type="checkbox" name="sport" id="Box" value="box">
+    <label for="Box">Kickboxing</label><br>
+
+    <input type="checkbox" name="sport" id="Football" value="Football">
+    <label for="Football">Foot</label><br><br>
+
+    Quel(s) pays appartenez vous ? <br><br>
+
+    <select name="Localisation" id="">
+      <optgroup label="Europe">
+      <option value="France">Fance</option>
+      <option value="Belguim">Belgique</option>
+    </optgroup>
+    <optgroup label="Amérique">
+      <option value="Canada">Canada</option>
+      <option value="Mexique">Mexico</option>
+    </optgroup>
+    <optgroup label="Afrique">
+      <option value="Tunisie">Tunsie</option>
+      <option value="maroco">maroco</option>
+    </optgroup>
+
+
+
+
+    </select>
+
+
+  </form>
+</body>
+</html>

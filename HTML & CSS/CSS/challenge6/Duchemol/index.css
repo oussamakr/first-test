@@ -1,0 +1,30 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+
+td {
+    border: 1px solid black;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.t1 {
+    border: 2px solid gray;
+}
+
+img {
+    width: 200px;
+    height: auto;
+
+}
+
+#submit {
+    width: 150px;
+    margin-left: 25%;
+
+}
+
+h1 {
+    margin-top: 30px;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<fieldset id="section">
+    <legend>vos données personelle</legend>
+    <form action="traitement.php" method="post">
+       
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom" placeholder="Votre nom"><br><br>
+
+        <label for="Prénom">Prénom :</label>
+        <input type="text" id="Prénom" name="Prénom" placeholder="votre prénom"><br><br>
+
+        <br>
+        <fieldset>
+           <legend>lieu de naissance </legend> 
+
+          <input type="radio" id="saint" name="lieu" value="saint">
+          <label for="saint">saint-sain -denis</label>
+          <input type="radio" name="lieu" id="rest" value="reste">
+          <label for="rest">Rest de monde</label>
+
+        </fieldset id="section1"><br><br>
+
+        <label  for="Address">Adress postale</label>
+        <textarea name="adress" id="Address" placeholder="Votre adress"></textarea><br>
+
+        <label for="code">Code postale</label>
+        <input type="number" id="code" name="code" placeholder="9300000"><br><br>
+
+        <label for="adress">Adress electronique</label>
+        <input type="email" id="adress" name="adess" placeholder="votre adress electronique"><br><br>
+
+        <label for="page">Page personelle</label>
+        <input type="text" id="page" name="page" placeholder="Votre page web "><br><br>
+
+
+        <label for="tlf">Telephone portable</label>
+        <input type="number" id="tlf" name="tlf" placeholder="06652555258"><br><br>
+
+        <fieldset id="section2">
+         <legend> Connaissance </legend>
+
+          <input type="checkbox" id="html" name="dev" value="html">
+          <label for="html">HTML</label>
+          <input type="checkbox" name="dev" id="css" value="css">
+          <label for="css">CSS</label>
+          <input type="checkbox" name="dev" id="formulaire" value="formulaire">
+          <label for="formulaire">formulaire</label>
+          <input type="checkbox" name="dev" id="javascript" value="javascript">
+          <label for="javascript">JavaScript</label> <br><br>
+
+        </fieldset>
+
+        <input type="submit" value="Envoyer">
+
+    </form>
+
+</fieldset>
+    
+</body>
+</html>

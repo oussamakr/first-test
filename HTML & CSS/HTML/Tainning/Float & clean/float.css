@@ -1,0 +1,32 @@
+
+
+h1{
+    color: brown;
+    float:right;
+    background-color: aqua;
+   
+   
+}
+p{
+
+    background-color: blueviolet;
+    float: right;
+   
+}
+table{
+    clear: both;
+    border-collapse: collapse;
+    
+   
+}
+td{
+   border: 1px brown solid;
+   padding: 10px; 
+   
+}
+.impaire{
+    background-color: aqua;
+}
+.pair{
+    background-color: blueviolet;
+}
